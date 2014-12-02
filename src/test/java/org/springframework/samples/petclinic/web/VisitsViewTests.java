@@ -47,7 +47,6 @@ import org.springframework.web.context.WebApplicationContext;
 @WebAppConfiguration
 @ContextConfiguration("VisitsViewTests-config.xml")
 @ActiveProfiles("jdbc")
-@Ignore
 public class VisitsViewTests {
 
     @Autowired
